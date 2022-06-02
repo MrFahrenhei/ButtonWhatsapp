@@ -1,0 +1,64 @@
+.zap-container{
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        z-index: 10;
+        border-radius: 10px;
+        /*background: rgb(229, 229, 229)*/
+        box-sizing: content-box;
+   		/*box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 30px;*/
+        overflow: hidden;
+        width: 75px;
+        height: 75px;
+    }
+    .zap-element{
+        /*background: rgb(54,191,66);*/ 
+        height: 75px;
+        width: 75px; 
+        line-height: 30px; 
+        /*font-size: 20px;*/  
+        display: flex; 
+        justify-content: space-between; 
+        padding: 5px 0px 5px 20px; 
+        font-family: Lato, sans-serif; 
+        color: rgb(255, 255, 255); 
+        cursor: pointer;
+    }
+    .zap-unit{
+      	display: flex; 
+      	/*align-items: center;*/ 
+      	padding: 0px 30px 0px 0px;
+    }
+    .zap{
+      	text-decoration: none; 
+      	font-weight: bold; 
+      	color: inherit; 
+      	margin: -19px; 
+      	margin-top: -5px;
+    }
+    .zap .icones{
+        width: 70px; 
+        height: 70px;
+    }
+
+  @media only screen and (max-width: 600px){
+    .zap-container{
+      	width: 100%;
+    	height: 100px;
+      	right: 23px;
+      	bottom: 60px;
+      	
+    }
+    .zap-element{
+      padding: 0% 0% 5% 85%;
+    }
+    .zap{
+      margin-top: 2px
+    }
+  }
+@media only screen and (max-width: 950px) and (min-width: 650px) {
+  .zap-container {
+  right: 2%;
+  bottom: 70px;
+  }
+}
